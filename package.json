@@ -1,0 +1,15 @@
+{
+  "name": "smartcity-system",
+  "version": "1.0.0",
+  "description": "SmartCity System - Lab Work 1 (Design Patterns)",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/main.ts",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "typecheck": "tsc -p ."
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}
